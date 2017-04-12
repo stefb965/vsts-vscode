@@ -192,7 +192,7 @@ the TFVC support.
 You will follow the same instructions for setting up the TEE CLC as is shown on Ubuntu in [this video](https://youtu.be/VPNaEIVZfr0).
 
 ### *I have workspaces created with Visual Studio. Can I use the TEE CLC to work with them?*
-This should be possible. However, you will need to make the TEE CLC aware of those workspaces by running the `tf workspaces` command.
+This should be possible. However, you will need to make the TEE CLC aware of those workspaces by running the `tf workspaces -collection:<collection-url>` command.
 
 ## Further Information
 For information on other features of the extension, support, licensing, privacy, or contributing code, please review the main [README](README.md) file.
